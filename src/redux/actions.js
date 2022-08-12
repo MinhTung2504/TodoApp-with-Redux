@@ -19,3 +19,10 @@ export const statusFilterChange = (status) => {
     payload: status,
   };
 };
+
+export const prioritiesFilterChange = (priorities) => {
+  return {
+    type: "filters/prioritesFilterChange",
+    payload: priorities,
+  };
+};
